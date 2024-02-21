@@ -1,0 +1,25 @@
+.newbooks_name{
+ font-size: 20px;
+ font-weight: 700;
+ color: rgb(17, 20, 45);
+ margin-top: 18px;
+}
+.newbooks_title{
+ color: rgb(63, 81, 181);
+ font-family: 'Times New Roman', Times, serif;
+ margin-bottom: 16px;
+ margin-top: 10px;
+}
+.newbooks_card{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.newbooks_card1{
+ display: flex;
+ gap: 10px;
+}
+.newbooks_card2{
+ display: flex;
+ gap: 10px;
+}

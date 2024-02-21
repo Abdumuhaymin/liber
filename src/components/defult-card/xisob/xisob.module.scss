@@ -1,0 +1,43 @@
+.card {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  & img {
+    cursor: pointer;
+  }
+  & input {
+    padding: 13px 12px;
+    width: 343px;
+    border-radius: 13px;
+  }
+  & button {
+    width: 343px;
+    background-color: rgb(63, 81, 181);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: 35px;
+    border-radius: 10px;
+  }
+}
+.card_block {
+  position: relative;
+  display: flex;
+  margin-bottom: 36px;
+}
+.sum {
+  position: absolute;
+  top: 16px;
+  left: 26px;
+  & p {
+    font-size: 16px;
+    font-weight: 7400;
+    color: white;
+  }
+  & h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+  }
+}

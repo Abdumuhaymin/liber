@@ -1,0 +1,93 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.hero_banner {
+  display: flex;
+  border-radius: 10px;
+  padding: 32px 24px 16px 32px;
+  background-color: rgb(238, 244, 255);
+  background-image: url(../../assets/heroImg/hero_banner_bc.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom ;
+  & h2{
+    margin-right: 40px;
+  }
+}
+.card {
+  padding: 32px 38px 38px 30px;
+  width: 261px;
+}
+.card {
+  background-color: rgb(63, 81, 181);
+  border-radius: 10px;
+  background-image: url(../../assets/heroImg/hero_card_bc.svg);
+}
+.hero_card_title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.hero_card_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.hero_card_btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  & img{
+   margin-right: 5px;
+  }
+}
+.hero_icon{
+ width: 32px;
+}
+.servic{
+ display: flex;
+ margin-top: 56px;
+}
+.content{
+ margin-top: 40px;
+}
+.content_card{
+ display: flex;
+ gap: 16px;
+ margin-top: 32px;
+ position: relative;
+}
+.content_img{
+ position: absolute;
+ top: 25%;
+ right: -60px;
+ cursor: pointer;
+}
+.title{
+ font-size: 32px ;
+ font-weight: 600;
+}
+
+
+
+.newbooks{
+ margin-top: 64px;
+}
+.newbooks_box{
+ margin-bottom: 32px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.newbooks_card{
+ display: flex;
+ justify-content: space-between;
+}

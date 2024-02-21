@@ -1,0 +1,38 @@
+.search_card {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 9px 20px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid rgb(108, 108, 108);
+  width: 168px;
+  height: 59px;
+}
+.search_card_title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(63, 81, 181);
+}
+.header_input {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 29px;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid rgb(108, 108, 108);
+
+}
+.input_form {
+  background-color: rgb(248, 248, 248);
+  width: 484px;
+  display: flex;
+}
+.header_box{
+ border: 1px solid rgb(108, 108, 108);
+ padding: 12px 27px 12px 19px;
+ border-radius:0 10px 10px 0;
+}
+.search{
+ display: flex;
+ gap: 4px;
+}

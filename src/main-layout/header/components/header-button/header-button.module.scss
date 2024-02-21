@@ -1,0 +1,31 @@
+.language{
+ display: flex;
+ gap: 8px;
+ align-items: center;
+ padding: 13px 15px;
+ background-color: rgb(238, 244, 255);
+ border-radius: 8px;
+ font-size: 16;
+ font-weight: 600;
+ color: rgb(63, 81, 181);
+ cursor: pointer;
+
+}
+.header_btn_block{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+.header_btn{
+ padding: 11px 24px;
+ background-color: rgb(63, 81, 181);
+ display: flex;
+ border-radius: 8px;
+ gap: 12px;
+ font-size: 18px;
+ font-weight: 700;
+ color: white;
+ cursor: pointer;
+}
+
+
